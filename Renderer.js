@@ -212,8 +212,8 @@ window.addEventListener("DOMContentLoaded", () => {
         document.getElementById("btn8").setAttribute("style","background-color:#efefef;color:black")
         document.getElementById("btn9").setAttribute("style","background-color:#efefef;color:black")
         Dynamic_Value = true
-        document.getElementById("x_player").value = 0
-        document.getElementById("y_player").value = 0
+        document.getElementById("x_player").value = ""
+        document.getElementById("y_player").value = ""
         X_SCORE = 0
         Y_SCORE = 0
         document.getElementById("player").innerHTML = "Player X"
