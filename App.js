@@ -12,7 +12,7 @@ const AppWindow = () => {
         },
         minHeight:600,
         minWidth:500,
-        // frame:false
+        frame:false
     })
     root.loadFile("Index.html")
 }
