@@ -1,6 +1,5 @@
 const {app,BrowserWindow, ipcMain} = require("electron")
 const path = require("path")
-const os = require("os")
 
 let root;
 
