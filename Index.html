@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self';">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- titlebar -->
+        <div class="titlebar">
+            <p id="title">Tic Tac Toe</p>
+            <Button id="minbtn">⚊</Button>
+            <Button id="maxbtn">◻</Button>
+            <Button id="closebtn">✖</Button>
+        </div>
+        <!-- Game Container -->
+        <div class="gamecontainer">
+            <!-- game board -->
+            <div class="board">
+                <Button class="gamebtn" id="btn1"></Button>
+                <Button class="gamebtn" id="btn2"></Button>
+                <Button class="gamebtn" id="btn3"></Button>
+                <Button class="gamebtn" id="btn4"></Button>
+                <Button class="gamebtn" id="btn5"></Button>
+                <Button class="gamebtn" id="btn6"></Button>
+                <Button class="gamebtn" id="btn7"></Button>
+                <Button class="gamebtn" id="btn8"></Button>
+                <Button class="gamebtn" id="btn9"></Button>
+            </div>
+            <!-- Score board -->
+            <div class="score_board">
+                <h3>X Score</h3>
+                <input type="text" name="x_player" id="x_player">
+                <h3>O Score</h3>
+                <input type="text" name="y_player" id="y_player">
+            </div>
+            <!-- Buttons Board -->
+            <div class="button_board">
+                <Button id="newgamebtn">New Game</Button>
+                <Button id="resetgamebtn">Reset Game</Button>
+                <h3 id="player">Player X</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
